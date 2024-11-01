@@ -1,112 +1,96 @@
 .container {
-  /* Un-reset CSS */
-html {
-  box-sizing: border-box;
+  /* Wrapper class */
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
   margin: 0;
-  font-family: Arial, sans-serif; /* Change to your preferred font */
-  line-height: 1.5; /* Improved readability */
-  color: #333; /* Default text color */
-  background-color: #fff; /* Default background color */
+  font-weight: normal;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; /* Remove default margins */
-  font-weight: normal; /* Normalize font weight */
+.container h2 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
-/* Specific styles for headings */
-h2 {
-  font-size: 1.5em; /* Size for h2 */
-  font-weight: bold; /* Make it bold */
+.container h3 {
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
-h3 {
-  font-size: 1.25em; /* Size for h3 */
-  font-weight: bold; /* Make it bold */
+.container h4 {
+  font-size: 1.125em;
+  font-weight: bold;
 }
 
-h4 {
-  font-size: 1.125em; /* Size for h4 */
-  font-weight: bold; /* Make it bold */
+.container h5 {
+  font-size: 1em;
+  font-weight: bold;
 }
 
-h5 {
-  font-size: 1em; /* Size for h5 */
-  font-weight: bold; /* Make it bold */
+.container h6 {
+  font-size: 0.875em;
+  font-weight: bold;
 }
 
-h6 {
-  font-size: 0.875em; /* Size for h6 */
-  font-weight: bold; /* Make it bold */
+.container p {
+  margin: 0 0 1em;
 }
 
-
-/* Paragraphs */
-p {
-  margin: 0 0 1em; /* Add space below paragraphs */
-}
-
-ul {
-  list-style-type: disc; /* Bulleted list */
+.container ul {
+  list-style-type: disc;
   margin: 0;
-  padding-left: 1.5em; /* Space for bullets */
+  padding-left: 1.5em;
 }
 
-ol {
-  list-style-type: decimal; /* Numbered list */
+.container ol {
+  list-style-type: decimal;
   margin: 0;
-  padding-left: 1.5em; /* Space for numbers */
+  padding-left: 1.5em;
 }
 
-li {
-  margin: 0.5em 0; /* Space between list items */
+.container li {
+  margin: 0.5em 0;
 }
-/* Blockquotes */
-blockquote {
+
+.container blockquote {
   margin: 0;
   padding: 0.5em 1em;
-  border-left: 4px solid #ccc; /* Optional: style for blockquotes */
+  border-left: 4px solid #ccc;
 }
 
-/* Links */
-a {
-  color: blue; /* Change to your preferred link color */
-  text-decoration: none; /* Remove underline */
+.container a {
+  color: blue;
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline; /* Underline on hover */
+.container a:hover {
+  text-decoration: underline;
 }
 
-/* Images */
-img {
-  max-width: 100%; /* Responsive images */
+.container img {
+  max-width: 100%;
   height: auto;
 }
 
-/* Tables */
-table {
-  width: 100%; /* Full-width tables */
-  border-collapse: collapse; /* Remove gaps between cells */
+.container table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-th, td {
-  padding: 0.5em; /* Space inside table cells */
-  border: 1px solid #ddd; /* Optional: add borders */
+.container th,
+.container td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
 }
 
-/* Form elements */
-input, textarea, select {
-  font-family: inherit; /* Ensure form elements inherit font */
-  margin: 0; /* Remove default margin */
-}
-
+.container input,
+.container textarea,
+.container select {
+  font-family: inherit;
+  margin: 0;
 }
