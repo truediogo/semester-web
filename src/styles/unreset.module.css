@@ -1,0 +1,112 @@
+.container {
+  /* Un-reset CSS */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Change to your preferred font */
+  line-height: 1.5; /* Improved readability */
+  color: #333; /* Default text color */
+  background-color: #fff; /* Default background color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; /* Remove default margins */
+  font-weight: normal; /* Normalize font weight */
+}
+
+/* Specific styles for headings */
+h2 {
+  font-size: 1.5em; /* Size for h2 */
+  font-weight: bold; /* Make it bold */
+}
+
+h3 {
+  font-size: 1.25em; /* Size for h3 */
+  font-weight: bold; /* Make it bold */
+}
+
+h4 {
+  font-size: 1.125em; /* Size for h4 */
+  font-weight: bold; /* Make it bold */
+}
+
+h5 {
+  font-size: 1em; /* Size for h5 */
+  font-weight: bold; /* Make it bold */
+}
+
+h6 {
+  font-size: 0.875em; /* Size for h6 */
+  font-weight: bold; /* Make it bold */
+}
+
+
+/* Paragraphs */
+p {
+  margin: 0 0 1em; /* Add space below paragraphs */
+}
+
+ul {
+  list-style-type: disc; /* Bulleted list */
+  margin: 0;
+  padding-left: 1.5em; /* Space for bullets */
+}
+
+ol {
+  list-style-type: decimal; /* Numbered list */
+  margin: 0;
+  padding-left: 1.5em; /* Space for numbers */
+}
+
+li {
+  margin: 0.5em 0; /* Space between list items */
+}
+/* Blockquotes */
+blockquote {
+  margin: 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid #ccc; /* Optional: style for blockquotes */
+}
+
+/* Links */
+a {
+  color: blue; /* Change to your preferred link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Images */
+img {
+  max-width: 100%; /* Responsive images */
+  height: auto;
+}
+
+/* Tables */
+table {
+  width: 100%; /* Full-width tables */
+  border-collapse: collapse; /* Remove gaps between cells */
+}
+
+th, td {
+  padding: 0.5em; /* Space inside table cells */
+  border: 1px solid #ddd; /* Optional: add borders */
+}
+
+/* Form elements */
+input, textarea, select {
+  font-family: inherit; /* Ensure form elements inherit font */
+  margin: 0; /* Remove default margin */
+}
+
+}
